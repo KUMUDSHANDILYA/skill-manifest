@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+  "id": "devtunnel-bot",
+  "name": "DevTunnel Bot",
+  "version": "1.0",
+  "description": "Bot hosted on DevTunnel and exposed as a Copilot skill.",
+  "publisherName": "Your Name or Company",
+  "privacyUrl": "https://www.example.com/privacy",
+  "termsOfUseUrl": "https://www.example.com/terms",
+  "endpoint": {
+    "protocol": "BotFrameworkV3",
+    "url": "https://sf8rg4m6-3978.inc1.devtunnels.ms/api/messages",
+    "msAppId": "527b692f-a870-410c-b828-524580902d52"
+  },
+  "activities": {
+    "message": {
+      "type": "message",
+      "description": "Handles incoming messages."
+    }
+  }
+}
