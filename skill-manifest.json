@@ -9,7 +9,7 @@
   "endpoints": [{
     "name": "nltosql",
     "protocol": "BotFrameworkV3",
-    "endpointUrl": "https://sf8rg4m6-3978.inc1.devtunnels.ms/api/messages",
+    "endpointUrl": "https://mhbnbhwc-5000.inc1.devtunnels.ms/api/messages",
     "msAppId": "527b692f-a870-410c-b828-524580902d52"
   }],
   "activities": {
